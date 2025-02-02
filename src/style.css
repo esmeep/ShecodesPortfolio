@@ -1,6 +1,16 @@
 /*font-family: "Roboto", serif;*/
 /*font-family: "Montserrat", serif;*/
 
+.hero {
+  background-image: url("beeld/homepage/bg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+
 .name {
   font-family: "Roboto", serif;
   font-style: bold;
@@ -16,9 +26,12 @@
   font-style: normal;
   font-size: 18px;
 }
+
+/*
 .button {
   font-family: "Montserrat", serif;
   font-style: bold;
   border-radius: 50px;
   font-size: 14px;
 }
+*/
