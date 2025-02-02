@@ -1,37 +1,42 @@
 /*font-family: "Roboto", serif;*/
 /*font-family: "Montserrat", serif;*/
-
+:root {
+}
 .hero {
-  background-image: url("beeld/homepage/bg.png");
+  background-image: url("/beeld/homepage/bg.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   width: 100%;
-  height: auto;
+  min-height: 100vh;
   text-align: center;
+  color: white;
+  padding: 220px 20px;
 }
 
-.name {
+.hero p {
   font-family: "Roboto", serif;
   font-style: bold;
   font-size: 24px;
 }
-.h1 {
+.hero h1 {
   font-family: "Roboto", serif;
   font-style: bold;
   font-size: 72px;
 }
-.text {
+.hero h2 {
   font-family: "Roboto", serif;
   font-style: normal;
   font-size: 18px;
+  margin-bottom: 30px;
+  margin-top: 30px;
 }
-
-/*
-.button {
-  font-family: "Montserrat", serif;
-  font-style: bold;
-  border-radius: 50px;
-  font-size: 14px;
+.btn-branding {
+  font-family: "Montserrat", serif !important;
+  font-style: bold !important;
+  border-radius: 50px !important;
+  font-size: 14px !important;
+  color: #272142 !important;
+  background-color: white !important;
+  padding: 18px 30px 18px 30px !important;
 }
-*/
