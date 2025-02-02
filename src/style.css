@@ -2,6 +2,9 @@
 /*font-family: "Montserrat", serif;*/
 :root {
 }
+body {
+  background-color: black !important;
+}
 .hero {
   background-image: url("/beeld/homepage/bg.png");
   background-size: cover;
@@ -39,4 +42,34 @@
   color: #272142 !important;
   background-color: white !important;
   padding: 18px 30px 18px 30px !important;
+}
+
+/* Foto's*/
+.container {
+  margin-top: 100px;
+}
+
+.gallery-container {
+  max-width: 1152px; /* Beperkt de breedte tot 1152px */
+  margin: 0 auto; /* Centreert de container */
+}
+
+.fixed-height {
+  height: 280px !important; /* Zorgt voor gelijke hoogte */
+  object-fit: cover; /* Zorgt ervoor dat de afbeelding de hele ruimte vult */
+  width: 100%; /* Zorgt ervoor dat de afbeeldingen zich aanpassen */
+}
+
+.gx-4 {
+  --bs-gutter-x: 40px; /* 40px ruimte tussen kolommen */
+}
+
+.gy-4 {
+  --bs-gutter-y: 40px; /* 40px ruimte tussen rijen */
+}
+.row {
+  margin-bottom: 40px;
+}
+.img {
+  width: 100% !important;
 }
