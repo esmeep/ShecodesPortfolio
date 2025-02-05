@@ -1,0 +1,116 @@
+/*font-family: "Roboto", serif;*/
+/*font-family: "Montserrat", serif;*/
+body {
+  background-color: #1b1b1b !important;
+}
+/* Algemene reset voor de about-section */
+.about-section {
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+.about-text {
+  margin-top: 51px;
+  margin-left: 40px;
+}
+
+.persoon {
+  width: 700px;
+  height: 782px;
+}
+h1 {
+  font-family: "Roboto", serif;
+  font-size: 64px !important;
+  color: white !important;
+}
+h2 {
+  font-family: "Roboto", serif;
+  font-size: 18px !important;
+  color: #f65282 !important;
+}
+p {
+  font-family: "Roboto", serif;
+  font-size: 18px !important;
+  color: white !important;
+}
+.socials {
+  color: white !important;
+}
+.contact {
+  font-size: 14px;
+  background-color: white;
+  padding: 18px 30px 18px 30px;
+  border-radius: 50px;
+}
+/*Img+Text*/
+.balk {
+  width: 100%;
+  max-width: 423px;
+  height: auto;
+  background-color: #2d2727;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  border-radius: 4px;
+  flex-wrap: nowrap;
+  margin: 0 auto;
+}
+.foto {
+  width: 70px;
+  height: 40.57px;
+  margin: 20px 30px 20px 20px;
+}
+.tekst {
+  width: 283px;
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px !important;
+  margin-left: 30px;
+  color: white;
+}
+
+/*contact*/
+.contact {
+  font-size: 14px;
+  background-color: white;
+  padding: 18px 30px;
+  border-radius: 50px;
+  display: inline-block;
+  margin-top: 20px; /* Extra marge om overlapping te voorkomen */
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+/* Foto's*/
+.foto-row {
+  margin-top: 100px;
+}
+
+.gallery-container {
+  max-width: 1152px; /* Beperkt de breedte tot 1152px */
+  margin: 0 auto; /* Centreert de container */
+}
+
+.fixed-height {
+  height: 280px !important; /* Zorgt voor gelijke hoogte */
+  object-fit: cover; /* Zorgt ervoor dat de afbeelding de hele ruimte vult */
+  width: 100%; /* Zorgt ervoor dat de afbeeldingen zich aanpassen */
+}
+
+.gx-4 {
+  --bs-gutter-x: 40px; /* 40px ruimte tussen kolommen */
+}
+
+.gy-4 {
+  --bs-gutter-y: 40px; /* 40px ruimte tussen rijen */
+}
+.row {
+  margin-bottom: 40px;
+}
+.img {
+  width: 100% !important;
+}
