@@ -4,6 +4,24 @@
 body {
   background-color: #1b1b1b !important;
 }
+
+.navbar {
+  background-color: pink !important;
+  height: 118px;
+  display: flex !important;
+  align-items: center;
+  padding: 0 !important;
+}
+.navbar-brand {
+  font-size: 30px !important;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: white;
+  display: flex !important;
+  align-items: center;
+  height: 118px;
+}
+
 .hero {
   background-image: url("/beeld/homepage/bg.png");
   background-size: cover;
