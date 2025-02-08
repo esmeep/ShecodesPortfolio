@@ -1,0 +1,44 @@
+/*font-family: "Roboto", serif;*/
+/*font-family: "Montserrat", serif;*/
+
+body {
+  background-color: #1b1b1b !important;
+}
+h1 {
+  font-family: "Roboto", serif;
+  font-style: bold;
+  font-size: 72px;
+  color: white !important;
+  text-align: center;
+  padding-bottom: 142px;
+  padding-top: 31px;
+}
+
+h2 {
+  color: #f65282 !important;
+  text-align: center;
+  font-family: "Roboto", serif;
+  font-style: bold;
+  font-size: 14px !important;
+}
+
+p {
+  color: white !important;
+  text-align: center;
+  margin: 0;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-size: 18px;
+  font-family: "Roboto", serif;
+  color: white;
+}
+.icon i {
+  font-size: 18px; /* Zorgt ervoor dat het icoon groot genoeg is */
+  line-height: 1; /* Zorgt ervoor dat de iconen geen extra ruimte krijgen */
+  padding-bottom: 15px;
+}
