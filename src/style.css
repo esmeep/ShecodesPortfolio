@@ -6,22 +6,24 @@ body {
 }
 
 .navbar {
-  background-color: pink !important;
+  background-color: #202020;
   height: 118px;
-  display: flex !important;
-  align-items: center;
-  padding: 0 !important;
 }
 .navbar-brand {
-  font-size: 30px !important;
-  font-weight: bold;
-  text-transform: uppercase;
-  color: white;
-  display: flex !important;
-  align-items: center;
-  height: 118px;
+  color: white !important;
+  font-size: 40px !important;
+  padding-left: 20px;
+}
+.nav-link {
+  color: white !important;
 }
 
+.navbar-toggler {
+  border-color: white !important;
+}
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=UTF8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='white' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E") !important;
+}
 .hero {
   background-image: url("/beeld/homepage/bg.png");
   background-size: cover;
