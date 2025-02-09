@@ -4,7 +4,7 @@
 body {
   background-color: #1b1b1b !important;
 }
-
+/*nav-bar*/
 .navbar {
   background-color: #202020;
   height: 118px;
@@ -24,8 +24,8 @@ body {
 .navbar-toggler-icon {
   background-image: url("data:image/svg+xml;charset=UTF8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='white' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E") !important;
 }
+/*Hero*/
 .hero {
-  background-image: url("/beeld/homepage/bg.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
