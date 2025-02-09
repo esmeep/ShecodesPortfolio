@@ -62,3 +62,38 @@ p {
   line-height: 1; /* Zorgt ervoor dat de iconen geen extra ruimte krijgen */
   padding-bottom: 15px;
 }
+/*footer*/
+.footer {
+  background-color: #282323; /* Achtergrondkleur */
+  color: white; /* Tekstkleur */
+  height: 100px; /* Stel een vaste hoogte in */
+  display: flex; /* Zorgt voor een nette uitlijning */
+  align-items: center; /* Centreert de inhoud verticaal */
+  justify-content: center;
+  padding: 20px 0;
+}
+
+.footer .container {
+  display: flex;
+  justify-content: flex-start; /* Verdeel de secties gelijkmatig */
+  width: 100%;
+  padding-bottom: 55px;
+  margin-right: 110px;
+}
+
+.footer-brand {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.footer-text {
+  font-size: 14px;
+  margin: 0;
+}
+
+.social-icon {
+  color: white !important;
+  font-size: 14px;
+  margin: 0 10px;
+  transition: color 0.3s;
+}
